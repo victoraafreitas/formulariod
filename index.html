@@ -13,14 +13,14 @@
         </div>
         <form>
             <!-- Nome -->
-            <fieldset>
-                <div>
+            <fieldset class="grupo">
+                <div class="campo">
                     <label>
                         <strong>Nome:</strong>
                     </label>
                     <input type="text" name="nome" id="nome">
                 </div>
-                <div>
+                <div class="campo">
                     <label>
                         <strong>Sobrenome:</strong>
                     </label>
@@ -28,14 +28,14 @@
                 </div>
             </fieldset>
             <!-- senha e email -->
-            <fieldset>
-                <div>
+            <fieldset class="grupo">
+                <div class="campo">
                     <label>
                         <strong>Email:</strong>
                     </label>
                     <input type="email" name="email" id="email">
                 </div>
-                <div>
+                <div class="campo">
                     <label>
                         <strong>Senha:</strong>
                     </label>
@@ -44,17 +44,15 @@
             </fieldset>
             <!-- nascimento e curso -->
             <div>
-                <div>
+                <div class="campo">
                     <label>
                         <strong>Data de nascimento</strong>
                     </label>
                     <input type="date" name="data" id="data">
                 </div>
-                <div>
+                <div class="campo">
                     <label>
                         <strong>Curso:</strong>
-                    </label>
-                    <label>
                         <input type="radio" name="curso" value="front-end">
                         Front-End
                         <input type="radio" name="curso" value="back-End">
@@ -66,7 +64,7 @@
             </div>
 
             <!-- Seleção de turno -->
-            <div>
+            <div class="campo">
                 <label>
                     <Strong>Turno</Strong>
                 </label>
@@ -78,7 +76,7 @@
                 </select>
             </div>
 
-            <button type="submit" onsubmit="">Cadastrar</button>
+            <button class="botao" type="submit" onsubmit="" >Cadastrar</button>
         </form>
     </body>
 </html>
